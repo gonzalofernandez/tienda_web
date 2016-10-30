@@ -1,0 +1,312 @@
+/*CSS de la web Tienda de Libros*/
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'ModernPictograms';
+  src: url('../fonts/modernpics.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/modernpics.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/modernpics.woff2') format('woff2'), /* Modern Browsers */
+    url('./fonts/modernpics.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/modernpics.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background: green;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#contenedor {
+    margin: auto;
+    width: 960px;
+    background-color: black;
+}
+
+#contenedor a {
+    text-decoration: none;
+}
+
+#acceso {
+    height: 30px;
+    position: relative;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#registro {
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#registro a {
+    color: white;
+}
+
+#registro a:hover {
+    background: white;
+    color: black;
+}
+
+#sesion {
+    width: 87%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+#sesion p {
+    color: white;
+    margin: 0;
+    height: 100%;
+}
+
+#carro {
+    width: 3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#carro a::after {
+    display: block;
+    font-family: ModernPictograms;
+    color: white;
+    content: "i";
+}
+
+header {
+    height: 205px;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#ico1 {
+    margin: 0;
+    width: 30%;
+    float: left;
+}
+
+#ico2 {
+    margin: 0;
+    width: 30%;
+    float: right;
+}
+
+header div {
+    float: left;
+    display: table;
+    width: 40%;
+    height: 100%;
+}
+
+header h1 {
+    font-size: 5em;
+    display: table-row;
+    color: green;
+    margin: 0;
+    text-align: center;
+}
+
+header figure img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#opciones {
+    position: relative;
+    height: 30px;
+    line-height: 1.9em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#opciones ul {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+#opciones ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+#opciones ul li a {
+    display: block;
+    color: white;
+}
+
+#opciones ul li a:hover {
+    background: white;
+    color: black;
+}
+
+#buscar {
+    float: left;
+    width: 30%;
+}
+
+#buscar form::before {
+    content: "<a href=\"#\">s</a>";
+    margin-right: 1em;
+}
+
+#lupa {
+    width: 8%;
+    height: 8%;
+    float: right;
+    margin-right: 5%;
+}
+
+form {
+    color: white;
+    font-family: ModernPictograms;
+}
+
+section {
+    position: relative;
+}
+
+#imagen {
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+    height: 350px;
+}
+
+#imagen img {
+    width: 100%;
+    height: 100%;
+}
+
+#gancho {
+    margin: 0;
+    height: 20%;
+}
+
+#gancho h2 {
+    font-size: 5em;
+    margin: 1%;
+    color: green;
+    text-align: center;
+}
+
+#libros {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.libro {
+    position: relative;
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    height: 100%;
+}
+
+footer {
+    position: relative;
+    margin-top: 2%;
+}
+
+#contacto {
+    float: left;
+    width: 50%;
+    color: green;
+    text-align: center;
+    line-height: 2em;
+}
+
+address {
+    color: white;
+    line-height: 2em;
+}
+
+#social {
+    float: left;
+    width: 50%;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+
+#social h6 {
+    color: green;
+}
+
+#social div {
+    display: inline;
+    float: left;
+    width: 25%;
+}
+
+#social img {
+    width: 60%;
+}
+
+#geolocalizacion {
+    text-align: center;
+    line-height: 2em;
+}
+
+#geolocalizacion h6 {
+    color: green;
+}
+
+#legal {
+    line-height: 2em;
+    clear: both;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.enlaceslegales {
+    display: block;
+}
+
+#legal a {
+    color: white;
+}
+
+#legal a:hover {
+    background: white;
+    color: black;
+}
+
+#legal h6 {
+    color: green;
+}
+
+#contenedorminions {
+    margin: 0;
+    width: 90%;
+    background-color: white;
+}
+
+#fotominions img {
+    width: 90%;
+    height: 90%;
+}
+
+#mensaje {
+    text-align: center;
+    color: blue;
+    font-size: 5em;
+}
+.icono {
+
+}
