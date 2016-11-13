@@ -296,13 +296,14 @@ address {
 
 #contenedorminions {
     margin: 0;
-    width: 90%;
-    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
 }
 
 #fotominions img {
-    width: 90%;
-    height: 90%;
+    margin: auto;
+    width: 100%;
 }
 
 #mensaje {
