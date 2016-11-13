@@ -295,7 +295,6 @@ address {
 }
 
 #contenedorminions {
-    margin: 0;
     padding-left: 1em;
     padding-right: 1em;
     position: relative;
@@ -311,6 +310,12 @@ address {
     color: blue;
     font-size: 5em;
 }
-.icono {
-
+#contenedorproducto {
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+    text-align: center;
+}
+#imagenlibro img {
+    width: 100%;
 }
