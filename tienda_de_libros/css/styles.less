@@ -18,7 +18,7 @@ body {
 
 #contenedor {
     margin: auto;
-    width: 960px;
+    width: 90%;
     background-color: black;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 #carro a::after {
-    display: block;
+    display: inline-block;
     font-family: ModernPictograms;
     color: white;
     content: "i";
@@ -157,9 +157,12 @@ header figure img {
     width: 30%;
 }
 
-#buscar form::before {
-    content: "<a href=\"#\">s</a>";
-    margin-right: 1em;
+#buscar a::before {
+    display: inline-block;
+    font-family: ModernPictograms;
+    color: white;
+    content: "s";
+    font-size: 1.5em;
 }
 
 #lupa {
