@@ -216,6 +216,10 @@ footer {
     margin-top: 2%;
 }
 
+.subapartado {
+    color: green;
+}
+
 #contacto {
     float: left;
     width: 50%;
@@ -224,7 +228,8 @@ footer {
     line-height: 2em;
 }
 
-address {
+address, #copyright {
+    text-align: center;
     color: white;
     line-height: 2em;
 }
@@ -235,10 +240,6 @@ address {
     color: white;
     text-align: center;
     line-height: 2em;
-}
-
-#social h6 {
-    color: green;
 }
 
 #social div {
@@ -256,10 +257,6 @@ address {
     line-height: 2em;
 }
 
-#geolocalizacion h6 {
-    color: green;
-}
-
 #legal {
     line-height: 2em;
     clear: both;
@@ -268,16 +265,8 @@ address {
     text-align: center;
 }
 
-.enlaceslegales {
-    display: block;
-}
-
 #legal a {
     color: white;
-}
-
-#legal h6 {
-    color: green;
 }
 
 #contenedorminions {
