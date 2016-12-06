@@ -26,58 +26,6 @@ body {
     text-decoration: none;
 }
 
-#acceso {
-    height: 30px;
-    position: relative;
-    line-height: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-#registro {
-    width: 10%;
-    height: 100%;
-    float: left;
-    text-align: center;
-}
-
-#registro a {
-    color: white;
-}
-
-#registro a:hover {
-    background: white;
-    color: black;
-}
-
-#sesion {
-    width: 87%;
-    height: 100%;
-    float: left;
-    text-align: right;
-}
-
-#sesion p {
-    color: white;
-    margin: 0;
-    height: 100%;
-}
-
-#carro {
-    width: 3%;
-    height: 100%;
-    float: left;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-#carro a::after {
-    display: inline-block;
-    font-family: ModernPictograms;
-    color: white;
-    content: "i";
-}
-
 header {
     height: 205px;
     position: relative;
@@ -119,6 +67,63 @@ header figure img {
     display: block;
 }
 
+#acceso {
+    height: 30px;
+    position: relative;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#registro {
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#registro a {
+    color: white;
+}
+
+.links:hover {
+    color: black !important;
+    background: white;
+}
+
+#sesion {
+    width: 87%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+#sesion p {
+    color: white;
+    margin: 0;
+    height: 100%;
+}
+
+#carro {
+    width: 3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#carro a {
+    height: 100%;
+}
+
+#carro a::after {
+    display: inline-block;
+    font-family: ModernPictograms;
+    color: white;
+    content: "i";
+    height: 100%;
+}
+
 #opciones {
     position: relative;
     height: 30px;
@@ -147,11 +152,6 @@ header figure img {
     color: white;
 }
 
-#opciones ul li a:hover {
-    background: white;
-    color: black;
-}
-
 #buscar {
     float: left;
     width: 30%;
@@ -170,15 +170,6 @@ header figure img {
     height: 8%;
     float: right;
     margin-right: 5%;
-}
-
-form {
-    color: white;
-    font-family: ModernPictograms;
-}
-
-section {
-    position: relative;
 }
 
 #imagen {
@@ -285,11 +276,6 @@ address {
     color: white;
 }
 
-#legal a:hover {
-    background: white;
-    color: black;
-}
-
 #legal h6 {
     color: green;
 }
@@ -310,12 +296,14 @@ address {
     color: blue;
     font-size: 5em;
 }
+
 #contenedorproducto {
     padding-left: 1em;
     padding-right: 1em;
     position: relative;
     text-align: center;
 }
+
 #imagenlibro img {
     width: 100%;
 }
