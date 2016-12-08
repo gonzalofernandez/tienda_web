@@ -58,6 +58,7 @@ header figure img {
 }
 
 #registro {
+    padding-top: 0.5em;
     width: 15%;
     float: left;
 }
@@ -226,7 +227,7 @@ address, #copyright {
 
 #datoslibro {
     font-size: 2em;
-    line-height: 3em;
+    line-height: 2.5em;
     text-align: center;
     float: left;
     width: 50%;
@@ -235,4 +236,18 @@ address, #copyright {
 
 #datoslibro table {
     margin: auto;
+}
+
+#botonComprar {
+    background: forestgreen;
+    color: black;
+    text-align: center;
+    padding-bottom: 0.4em;
+}
+
+#botonComprar::after {
+    font-family: ModernPictograms;
+    color: black;
+    content: " o";
+    font-size: 1.4em;
 }
