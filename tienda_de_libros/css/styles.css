@@ -20,6 +20,7 @@ body {
     margin: auto;
     width: 960px;
     background-color: black;
+    cursor: default;
 }
 
 #contenedor a {
@@ -250,4 +251,17 @@ address, #copyright {
     color: black;
     content: " o";
     font-size: 1.4em;
+}
+
+.elementoMultimedia {
+    float: left;
+    width: 33.3%;
+}
+
+#multimedia {
+    text-align: center;
+}
+
+#imagenRetocada img {
+    width: 100%;
 }
