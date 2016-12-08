@@ -11,7 +11,7 @@
     </head>
     <body>
        <div id="contenedor">
-			<header>
+			<header class="modulo">
                 <figure id="ico1"><img src="img/logoLibros.png" alt="logo de la tienda"></figure>
                 <div>
                     <h1>top</h1>
@@ -19,41 +19,38 @@
                 </div>
                 <figure id="ico2"><img src="img/logoLibros.png" alt="logo de la tienda"></figure>
 			</header>
-			<nav id="acceso">
+			<nav class="modulo">
 				<div id="registro">
 					<a class="links" href="#">acceso</a>
 					<a class="links" href="#">registro</a>
 				</div>
 				<div id="sesion">
 					<p>usuario</p>
-				</div>
-				<div id="carro">
-				    <a href="#"></a>
+                    <a id="carro" href="#"></a>
 				</div>
 			</nav>
-			<nav id="opciones">
+			<nav class="modulo" id="opciones">
 				<ul>
 					<li><a class="links" href="#">inicio</a></li>
 					<li><a class="links" href="#">recomendados</a></li>
 					<li><a class="links" href="#">generos</a></li>
                     <li><a class="links" href="#">otros idiomas</a></li>
                     <li><a class="links" href="#">infantil</a></li>
+                    <li id="busqueda"><a id="buscar" href="#"></a>
+                    <input type="text" name="campo_busqueda" placeholder="Buscar..."/></li>
 				</ul>
-				<div id="buscar">
-                    <a href="#"></a>
-                    <input type="text" size="33" name="busqueda" placeholder="Buscar..."/>
-				</div>
 			</nav>
-            <main>
+            <main class="modulo">
                 <figure id="fotominions">
                     <img src="img/minionsOk.png" alt="Foto de los Minions">
                 </figure>
                 <section id="mensaje">
-                    <p>lo sentimos, la página solicitada no ha sido encontrada. para continuar recargue la página o pulse en el siguiente enlace.</p>
+                    <p>lo sentimos, la página solicitada no ha sido encontrada.</p>
+                    <p>para continuar recargue la página o pulse en el siguiente enlace.</p>
                     <p><a id="inicio" href="index.html">volver a inicio</a></p>
                 </section>
             </main>
-			<footer>
+			<footer class="modulo">
                 <section id="contacto">
                     <h6 class="subapartado">contacto</h6>
                     <address>
@@ -62,46 +59,44 @@
                         <p>calle laguna nº12 madrid 28000</p>
                     </address>
                 </section>
-                <nav>
-                    <section id="social">
-                        <h6 class="subapartado">síguenos</h6>
-                        <div>
-                            <a href="#"><img class="redsocial" src="img/iconos/twitter.png" alt="logo de twitter"></a>
-                        </div>
-                        <div>
-                            <a href="#"><img class="redsocial" src="img/iconos/facebook.png" alt="logo de facebook"></a>
-                        </div>
-                        <div>
-                            <a href="#"><img class="redsocial" src="img/iconos/google+.png" alt="logo de google+"></a>
-                        </div>
-                        <div>
-                            <a href="#"><img class="redsocial" src="img/iconos/whatsapp.png" alt="logo de whatsapp"></a>
-                        </div>
-                    </section>
-                    <section id="geolocalizacion">
-                        <h6 class="subapartado">dónde estamos</h6>
-                        <figure id="geo">
-                            <a href="#"><img src="img/geo.png" alt="imagen de mapa"></a>
-                        </figure>
-                    </section>
-                    <section id="legal">
-                        <h6 class="subapartado">aviso legal</h6>
-                        <ul>
-                            <li>
-                                <a class="links" href="#">privacidad del sitio</a>
-                            </li>
-                            <li>
-                                <a class="links" href="#">condiciones de uso</a>
-                            </li>
-                            <li>
-                                <a class="links" href="#">condiciones de venta</a>
-                            </li>
-                            <li>
-                                <a class="links" href="#">información de derechos de uso de los contenidos del sitio web</a>
-                            </li>
-                        </ul>
-                    </section>
-                </nav>
+                <section id="social">
+                    <h6 class="subapartado">síguenos</h6>
+                    <div>
+                        <a href="#"><img class="redsocial" src="img/iconos/twitter.png" alt="logo de twitter"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="redsocial" src="img/iconos/facebook.png" alt="logo de facebook"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="redsocial" src="img/iconos/google+.png" alt="logo de google+"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="redsocial" src="img/iconos/whatsapp.png" alt="logo de whatsapp"></a>
+                    </div>
+                </section>
+                <section id="geolocalizacion">
+                    <h6 class="subapartado">dónde estamos</h6>
+                    <figure id="geo">
+                        <a href="#"><img src="img/geo.png" alt="imagen de mapa"></a>
+                    </figure>
+                </section>
+                <section id="legal">
+                    <h6 class="subapartado">aviso legal</h6>
+                    <ul>
+                        <li>
+                            <a class="links" href="#">privacidad del sitio</a>
+                        </li>
+                        <li>
+                            <a class="links" href="#">condiciones de uso</a>
+                        </li>
+                        <li>
+                            <a class="links" href="#">condiciones de venta</a>
+                        </li>
+                        <li>
+                            <a class="links" href="#">información de derechos de uso de los contenidos del sitio web</a>
+                        </li>
+                    </ul>
+                </section>
                 <p id="copyright">2016 - interface design</p>
 			</footer>
 		</div>

@@ -10,97 +10,98 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
-       <div id="contenedor">
-			<nav id="acceso">
+        <div id="contenedor">
+            <header class="modulo">
+                <figure id="ico1"><img src="img/logoLibros.png" alt="logo de la tienda"></figure>
+                <div>
+                    <h1>top</h1>
+                    <h1>libros</h1>
+                </div>
+                <figure id="ico2"><img src="img/logoLibros.png" alt="logo de la tienda"></figure>
+			</header>
+			<nav class="modulo">
 				<div id="registro">
-					<a href="#">Acceso</a>
-					<a href="#">Registro</a>
+					<a class="links" href="#">acceso</a>
+					<a class="links" href="#">registro</a>
 				</div>
 				<div id="sesion">
-					<p>Usuario</p>
-				</div>
-				<div id="carro">
-				    <a href="#"></a>
+					<p>usuario</p>
+                    <a id="carro" href="#"></a>
 				</div>
 			</nav>
-			<header>
-                <figure id="ico1"><img src="img/logoLibros.png" alt="Logo de la tienda"></figure>
-                <div>
-                    <h1>Top</h1>
-                    <h1>Libros</h1>
-                </div>
-                <figure id="ico2"><img src="img/logoLibros.png" alt="Logo de la tienda"></figure>
-			</header>
-			<nav id="opciones">
+			<nav class="modulo" id="opciones">
 				<ul>
-					<li><a href="#">INICIO</a></li>
-					<li><a href="#">RECOMENDADOS</a></li>
-					<li><a href="#">GENEROS</a></li>
-					<li><a href="#">OTROS IDIOMAS</a></li>
+					<li><a class="links" href="#">inicio</a></li>
+					<li><a class="links" href="#">recomendados</a></li>
+					<li><a class="links" href="#">generos</a></li>
+                    <li><a class="links" href="#">otros idiomas</a></li>
+                    <li><a class="links" href="#">infantil</a></li>
+                    <li id="busqueda"><a id="buscar" href="#"></a>
+                    <input type="text" name="campo_busqueda" placeholder="Buscar..."/></li>
 				</ul>
-				<div id="buscar">
-                    <a href="#"></a>
-                    <input type="text" size="40" name="busqueda" placeholder="Buscar..."/>
-				</div>
 			</nav>
-			<figure id="imagen">
-                <img src="img/modificada.png" alt="Imagen inicial">
-            </figure>
-            <main>
-                <div id="contenedorproducto">
-                    <section>
-                        <figure id="imagenlibro">
-                            <img src="img/producto.png" alt="Imagen de libro">
-                        </figure>
-                    </section>
-                </div>
+            <main class="modulo">
+                <figure id="imagenlibro">
+                    <img src="img/libro.png" alt="imagen de libro">
+                </figure>
+                <section id="datoslibro">
+                    <h6>datos del libro</h6>
+                    <table>
+                        <tr><th>titulo:</th><td>el secreto de vesalio</td></tr>
+                        <tr><th>autor:</th><td>jordi llobregat</td></tr>
+                        <tr><th>editorial:</th><td>circulo de lectores</td></tr>
+                        <tr><th>pvp:</th><td>21.95€</td></tr>
+                    </table>
+                </section>
             </main>
-			<footer>
-                <div id="contacto">
-                    <h6>CONTACTO</h6>
+			<footer class="modulo">
+                <section id="contacto">
+                    <h6 class="subapartado">contacto</h6>
                     <address>
                         <p>999-999-999</p>
                         <p>toplibros@toplibros.es</p>
-                        <p>calle laguna nº12 Madrid 28000</p>
+                        <p>calle laguna nº12 madrid 28000</p>
                     </address>
-                </div>
-				<div id="social">
-					<h6>SIGUENOS</h6>
-					<div>
-                        <a href="#"><img class="redsocial" src="img/iconos/twitter.png" alt="Logo de twitter"></a>
-					</div>
-					<div>
-					    <a href="#"><img class="redsocial" src="img/iconos/facebook.png" alt="Logo de facebook"></a>
-					</div>
+                </section>
+                <section id="social">
+                    <h6 class="subapartado">síguenos</h6>
                     <div>
-                        <a href="#"><img class="redsocial" src="img/iconos/google+.png" alt="Logo de google+"></a>
+                        <a href="#"><img class="redsocial" src="img/iconos/twitter.png" alt="logo de twitter"></a>
                     </div>
                     <div>
-                        <a href="#"><img class="redsocial" src="img/iconos/whatsapp.png" alt="Logo de whatsapp"></a>
+                        <a href="#"><img class="redsocial" src="img/iconos/facebook.png" alt="logo de facebook"></a>
                     </div>
-				</div>
-				<div id="geolocalizacion">
-				    <h6>DÓNDE ESTAMOS</h6>
-				    <figure id="geo">
-                        <a href="#"><img src="img/geo.png" alt="Imagen de mapa"></a>
-				    </figure>
-				</div>
-				<div id="legal">
-					<h6>AVISO LEGAL</h6>
-					<div class="enlaceslegales">
-					    <a href="#">Privacidad del sitio</a>
-					</div>
-					<div>
-					    <a href="#">Condiciones de uso</a>
-					</div>
                     <div>
-                        <a href="#">Condiciones de venta</a>
+                        <a href="#"><img class="redsocial" src="img/iconos/google+.png" alt="logo de google+"></a>
                     </div>
-					<div>
-					    <a href="#">Información de derechos de uso de los contenidos del sitio web</a>
-					</div>
-					<p>2016 - Interface Design</p>
-				</div>
+                    <div>
+                        <a href="#"><img class="redsocial" src="img/iconos/whatsapp.png" alt="logo de whatsapp"></a>
+                    </div>
+                </section>
+                <section id="geolocalizacion">
+                    <h6 class="subapartado">dónde estamos</h6>
+                    <figure id="geo">
+                        <a href="#"><img src="img/geo.png" alt="imagen de mapa"></a>
+                    </figure>
+                </section>
+                <section id="legal">
+                    <h6 class="subapartado">aviso legal</h6>
+                    <ul>
+                        <li>
+                            <a class="links" href="#">privacidad del sitio</a>
+                        </li>
+                        <li>
+                            <a class="links" href="#">condiciones de uso</a>
+                        </li>
+                        <li>
+                            <a class="links" href="#">condiciones de venta</a>
+                        </li>
+                        <li>
+                            <a class="links" href="#">información de derechos de uso de los contenidos del sitio web</a>
+                        </li>
+                    </ul>
+                </section>
+                <p id="copyright">2016 - interface design</p>
 			</footer>
 		</div>
     </body>

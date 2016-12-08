@@ -26,6 +26,10 @@ body {
     text-decoration: none;
 }
 
+.modulo {
+    clear: both;
+}
+
 #ico1 {
     width: 30%;
     float: left;
@@ -33,42 +37,29 @@ body {
 
 #ico2 {
     width: 30%;
-    float: right;
+    float: left;
 }
 
 header div {
     float: left;
     display: table;
     width: 40%;
-    height: 100%;
 }
 
 header h1 {
     font-size: 5em;
     display: table-row;
     color: green;
-    margin: 0;
     text-align: center;
 }
 
 header figure img {
-    margin: 0;
     width: 100%;
-    height: 100%;
-    display: block;
-}
-
-#acceso {
-    height: 30px;
-    position: relative;
-    line-height: 2em;
 }
 
 #registro {
-    width: 10%;
-    height: 100%;
+    width: 15%;
     float: left;
-    text-align: center;
 }
 
 #registro a {
@@ -81,94 +72,61 @@ header figure img {
 }
 
 #sesion {
-    width: 87%;
-    height: 100%;
+    width: 85%;
     float: left;
     text-align: right;
 }
 
 #sesion p {
-    color: white;
-    margin: 0;
-    height: 100%;
-}
-
-#carro {
-    width: 3%;
-    height: 100%;
-    float: left;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-#carro a {
-    height: 100%;
-}
-
-#carro a::after {
     display: inline-block;
+    color: white;
+}
+
+#carro::after {
+    font-size: 1.5em;
     font-family: ModernPictograms;
     color: white;
     content: "i";
-    height: 100%;
-}
-
-#opciones {
-    line-height: 1.9em;
 }
 
 #opciones ul {
-    width: 70%;
-    margin: 0;
-    padding: 0;
     list-style: none;
     overflow: hidden;
-    float: left;
+    margin-bottom: 1em;
 }
 
 #opciones ul li {
-    width: 20%;
+    padding-top: 0.7em;
+    width: 15%;
     float: left;
     text-align: center;
 }
 
-#opciones ul li a {
+#opciones ul #busqueda {
+    width: 25%;
+    padding-top: 0;
+}
+
+#opciones ul li .links {
     display: block;
     color: white;
 }
 
-#buscar {
-    float: right;
-    width: 30%;
-}
-
-#buscar a::before {
-    display: inline-block;
+#buscar::after {
     font-family: ModernPictograms;
     color: white;
     content: "s";
     font-size: 1.5em;
 }
 
-#lupa {
-    width: 8%;
-    height: 8%;
-    float: right;
-    margin-right: 5%;
-}
-
-/*#imagen {
-    float: left;
-}*/
-
 #imagen img {
     width: 100%;
-    height: 20em;
+    height: 25em;
 }
 
 #gancho p {
     font-size: 5em;
-    color: green;
+    color: forestgreen;
     text-align: center;
 }
 
@@ -241,7 +199,7 @@ address, #copyright {
 }
 
 #fotominions img {
-    height: 30em;
+    height: 25em;
     width: 100%;
 }
 
@@ -253,13 +211,28 @@ address, #copyright {
 
 #inicio {
     color: white;
+    text-decoration: underline !important;
 }
 
-#contenedorproducto {
-    position: relative;
+#imagenlibro {
     text-align: center;
+    float: left;
+    width: 50%;
 }
 
 #imagenlibro img {
-    width: 100%;
+    width: 75%;
+}
+
+#datoslibro {
+    font-size: 2em;
+    line-height: 3em;
+    text-align: center;
+    float: left;
+    width: 50%;
+    color: forestgreen;
+}
+
+#datoslibro table {
+    margin: auto;
 }

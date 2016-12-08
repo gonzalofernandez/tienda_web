@@ -11,7 +11,7 @@
     </head>
     <body>
 		<div id="contenedor">
-		    <header>
+		    <header class="modulo">
                 <figure id="ico1"><img src="img/logoLibros.png" alt="logo de la tienda"></figure>
                 <div>
                     <h1>top</h1>
@@ -19,32 +19,28 @@
                 </div>
                 <figure id="ico2"><img src="img/logoLibros.png" alt="logo de la tienda"></figure>
 			</header>
-			<nav id="acceso">
+			<nav class="modulo">
 				<div id="registro">
 					<a class="links" href="#">acceso</a>
 					<a class="links" href="#">registro</a>
 				</div>
 				<div id="sesion">
 					<p>usuario</p>
-				</div>
-				<div id="carro">
-				    <a href="#"></a>
+                    <a id="carro" href="#"></a>
 				</div>
 			</nav>
-			<nav id="opciones">
+			<nav class="modulo" id="opciones">
 				<ul>
 					<li><a class="links" href="#">inicio</a></li>
 					<li><a class="links" href="#">recomendados</a></li>
 					<li><a class="links" href="#">generos</a></li>
                     <li><a class="links" href="#">otros idiomas</a></li>
                     <li><a class="links" href="#">infantil</a></li>
+                    <li id="busqueda"><a id="buscar" href="#"></a>
+                    <input type="text" name="campo_busqueda" placeholder="Buscar..."/></li>
 				</ul>
-				<div id="buscar">
-                    <a href="#"></a>
-                    <input type="text" name="busqueda" placeholder="Buscar..."/>
-				</div>
 			</nav>
-            <main>
+            <main class="modulo">
                 <figure id="imagen">
                     <img src="img/fotoinicio.jpg" alt="imagen inicial">
                 </figure>
@@ -54,33 +50,33 @@
                 <div id="libros">
                     <ul>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro1.jpg" alt="libro a la venta"></a>
+                            <a href="producto.html"><img class="libros" src="img/libros/libro1.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro2.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro2.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro3.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro3.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro4.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro4.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro5.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro5.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro6.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro6.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro7.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro7.jpg" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="img/libros/libro8.jpg" alt="libro a la venta"></a>
+                            <a href="#"><img class="libros" src="img/libros/libro8.jpg" alt="portada de libro"></a>
                         </li>
                     </ul>
                 </div>
             </main>
-			<footer>
+			<footer class="modulo">
                 <section id="contacto">
                     <h6 class="subapartado">contacto</h6>
                     <address>
