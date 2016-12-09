@@ -32,12 +32,12 @@ body {
 }
 
 #ico1 {
-    width: 30%;
+    width: 40%;
     float: left;
 }
 
 #ico2 {
-    width: 30%;
+    width: 40%;
     float: left;
 }
 
@@ -105,7 +105,7 @@ header figure img {
 }
 
 #opciones ul #busqueda {
-    width: 25%;
+    width: 40%;
     padding-top: 0;
 }
 
@@ -123,7 +123,7 @@ header figure img {
 
 #imagen img {
     width: 100%;
-    height: 25em;
+    height: 40em;
 }
 
 #gancho p {
@@ -171,7 +171,7 @@ address, #copyright {
 #social div {
     display: inline;
     float: left;
-    width: 25%;
+    width: 40%;
 }
 
 #social img {
@@ -201,7 +201,7 @@ address, #copyright {
 }
 
 #fotominions img {
-    height: 25em;
+    height: 40em;
     width: 100%;
 }
 
@@ -264,4 +264,38 @@ address, #copyright {
 
 #imagenRetocada img {
     width: 100%;
+    height: 15em;
+}
+
+#video {
+    width: 90%;
+}
+
+#botones img {
+    background-image: url("../img/controles/player_buttons.png");
+    border-radius: 50%;
+}
+
+#reproducir {
+    width: 30px;
+    height: 30px;
+    background-position: 35px 10px;
+}
+
+#parar {
+    width: 30px;
+    height: 30px;
+    background-position: -4.3em;
+}
+
+#subirvolumen {
+    width: 30px;
+    height: 30px;
+    background-position: -8.6em;
+}
+
+#bajarvolumen {
+    width: 30px;
+    height: 30px;
+    background-position: -12.95em;
 }

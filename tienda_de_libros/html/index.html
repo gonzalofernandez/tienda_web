@@ -8,6 +8,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="../favLibros.ico">
         <link rel="stylesheet" type="text/css" href="../css/reset.css">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script type="text/javascript" src="../js/controlvideo.js"></script>
     </head>
     <body>
 		<div id="contenedor">
@@ -81,7 +82,23 @@
                 <figure class="elementoMultimedia" id="imagenRetocada">
                     <img src="../img/antarctica/Antarctica.png" alt="foto de la antarctica">
                 </figure>
-                <video class="elementoMultimedia" id="video" src="../video/Penguins.webm" controls>Tu navegador no implementa el elemento <code>video</code>.</video>
+                <div class="elementoMultimedia">
+                    <video id="video" autoplay>
+                        Tu navegador no implementa el elemento <code>video</code>.
+                        <source src="../video/Penguins.webm" type="video/webm">
+                        <source src="../video/Penguins.ogg" type="video/ogg">
+                        <source src="../video/Penguins.mkv" type="video/mkv">
+                        <source src="../video/Penguins.mpeg" type="video/mpeg">
+                        HTML5 Video is required for this example.
+                        <a href="../video/Penguins.webm">Descarga el video</a> file.
+                    </video>
+                    <figure id="botones">
+                        <img id="reproducir">
+                        <img id="parar">
+                        <img id="subirvolumen">
+                        <img id="bajarvolumen">
+                    </figure>
+                </div>
             </section>
 			<footer class="modulo">
                 <section id="contacto">
