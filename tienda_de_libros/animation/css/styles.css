@@ -1,0 +1,59 @@
+/*CSS de la web Tienda de Libros*/
+
+#contenedor {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: auto;
+    width: 960px;
+    background-color: black;
+    cursor: default;
+}
+
+.modulo {
+    clear: both;
+}
+
+.elementoMultimedia {
+    float: left;
+    width: 33.3%;
+}
+
+#carrusel {
+    overflow: hidden;
+    margin: 2em auto;
+    width: 40%;
+}
+
+#carrusel ul {
+    display: flex;
+    width: 1000%;
+    animation: cambiarfoto 20s infinite normal;
+}
+
+#carrusel img {
+    width: 100%;
+    height: 11em;
+}
+
+@keyframes cambiarfoto {
+    9% {margin-left: 0%;}
+    10% {margin-left: -100%;}
+    19% {margin-left: -100%;}
+    20% {margin-left: -200%;}
+    29% {margin-left: -200%;}
+    30% {margin-left: -300%;}
+    39% {margin-left: -300%;}
+    40% {margin-left: -400%;}
+    49% {margin-left: -400%;}
+    50% {margin-left: -500%;}
+    59% {margin-left: -500%;}
+    60% {margin-left: -600%;}
+    69% {margin-left: -600%;}
+    70% {margin-left: -700%;}
+    79% {margin-left: -700%;}
+    80% {margin-left: -800%;}
+    89% {margin-left: -800%;}
+    90% {margin-left: -900%;}
+    99% {margin-left: -900%;}
+    100% {margin-left: -1000%;}
+}

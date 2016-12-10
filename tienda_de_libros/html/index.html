@@ -13,12 +13,12 @@
     <body>
 		<div id="contenedor">
 		    <header class="modulo">
-                <figure id="ico1"><img src="../img/imagenes/logoLibros.png" alt="logo de la tienda"></figure>
+                <figure class="iconos"><img src="../img/imagenes/logoLibros.png" alt="logo de la tienda"></figure>
                 <div>
                     <h1>top</h1>
                     <h1>libros</h1>
                 </div>
-                <figure id="ico2"><img src="../img/imagenes/logoLibros.png" alt="logo de la tienda"></figure>
+                <figure class="iconos"><img src="../img/imagenes/logoLibros.png" alt="logo de la tienda"></figure>
 			</header>
 			<nav class="modulo">
 				<div id="registro">
@@ -51,28 +51,28 @@
                 <div id="libros">
                     <ul>
                         <li class="libro">
-                            <a href="producto.html"><img class="libros" src="../img/libros/libro1.jpg" alt="portada de libro"></a>
+                            <a href="producto.html"><img class="libros" src="../img/libros/libro1.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro2.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro2.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro3.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro3.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro4.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro4.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro5.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro5.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro6.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro6.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro7.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro7.png" alt="portada de libro"></a>
                         </li>
                         <li class="libro">
-                            <a href="#"><img class="libros" src="../img/libros/libro8.jpg" alt="portada de libro"></a>
+                            <a href="#"><img class="libros" src="../img/libros/libro8.png" alt="portada de libro"></a>
                         </li>
                     </ul>
                 </div>
@@ -83,21 +83,56 @@
                     <img src="../img/antarctica/Antarctica.png" alt="foto de la antarctica">
                 </figure>
                 <div class="elementoMultimedia">
-                    <video id="video" autoplay>
-                        Tu navegador no implementa el elemento <code>video</code>.
+                    <div id="carrusel">
+                        <ul>
+                            <li>
+                                <img src="../img/libros/libro1.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro2.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro3.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro4.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro5.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro6.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro7.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro8.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro9.png" alt="foto de libro">
+                            </li>
+                            <li>
+                                <img src="../img/libros/libro10.png" alt="foto de libro">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="elementoMultimedia">
+                    <video id="video">
                         <source src="../video/Penguins.webm" type="video/webm">
                         <source src="../video/Penguins.ogg" type="video/ogg">
                         <source src="../video/Penguins.mkv" type="video/mkv">
                         <source src="../video/Penguins.mpeg" type="video/mpeg">
-                        HTML5 Video is required for this example.
+                        Se requiere HTML5 Video para ver el video.
                         <a href="../video/Penguins.webm">Descarga el video</a> file.
                     </video>
-                    <figure id="botones">
-                        <img id="reproducir">
-                        <img id="parar">
-                        <img id="subirvolumen">
-                        <img id="bajarvolumen">
-                    </figure>
+                    <div>
+                        <div class="botones dimensionesBoton" id="reproducir"></div>
+                        <div class="botones dimensionesBoton" id="pausar"></div>
+                        <div class="botones dimensionesBoton" id="subirvolumen"></div>
+                        <div class="botones dimensionesBoton" id="bajarvolumen"></div>
+                    </div>
                 </div>
             </section>
 			<footer class="modulo">

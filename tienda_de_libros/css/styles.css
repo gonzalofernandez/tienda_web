@@ -31,13 +31,8 @@ body {
     clear: both;
 }
 
-#ico1 {
-    width: 40%;
-    float: left;
-}
-
-#ico2 {
-    width: 40%;
+.iconos {
+    width: 30%;
     float: left;
 }
 
@@ -105,7 +100,7 @@ header figure img {
 }
 
 #opciones ul #busqueda {
-    width: 40%;
+    width: 25%;
     padding-top: 0;
 }
 
@@ -123,7 +118,7 @@ header figure img {
 
 #imagen img {
     width: 100%;
-    height: 40em;
+    height: 30em;
 }
 
 #gancho p {
@@ -171,11 +166,11 @@ address, #copyright {
 #social div {
     display: inline;
     float: left;
-    width: 40%;
+    width: 25%;
 }
 
 #social img {
-    width: 60%;
+    width: 80%;
 }
 
 #geolocalizacion {
@@ -213,7 +208,7 @@ address, #copyright {
 
 #inicio {
     color: white;
-    text-decoration: underline !important;
+    text-decoration: underline overline !important;
 }
 
 #imagenlibro {
@@ -239,7 +234,7 @@ address, #copyright {
     margin: auto;
 }
 
-#botonComprar {
+.botonAccion {
     background: forestgreen;
     color: black;
     text-align: center;
@@ -249,7 +244,14 @@ address, #copyright {
 #botonComprar::after {
     font-family: ModernPictograms;
     color: black;
-    content: " o";
+    content: " $";
+    font-size: 1.4em;
+}
+
+#botonVolver::before {
+    font-family: ModernPictograms;
+    color: black;
+    content: "R ";
     font-size: 1.4em;
 }
 
@@ -268,34 +270,73 @@ address, #copyright {
 }
 
 #video {
-    width: 90%;
+    color: white;
+    width: 100%;
 }
 
-#botones img {
+.botones {
+    display: inline-block;
     background-image: url("../img/controles/player_buttons.png");
     border-radius: 50%;
 }
 
-#reproducir {
+.dimensionesBoton {
     width: 30px;
     height: 30px;
-    background-position: 35px 10px;
 }
 
-#parar {
-    width: 30px;
-    height: 30px;
-    background-position: -4.3em;
+#reproducir {
+        background-position: -254px -60px;
+}
+
+#pausar {
+    background-position: -254px -107px;
 }
 
 #subirvolumen {
-    width: 30px;
-    height: 30px;
-    background-position: -8.6em;
+    background-position: -160px -60px;
 }
 
 #bajarvolumen {
-    width: 30px;
-    height: 30px;
-    background-position: -12.95em;
+    background-position: -160px -107px;
+}
+
+#carrusel {
+    overflow: hidden;
+    margin: 2em auto;
+    width: 40%;
+}
+
+#carrusel ul {
+    display: flex;
+    width: 1000%;
+    animation: cambiarfoto 20s infinite normal;
+}
+
+#carrusel img {
+    width: 100%;
+    height: 11em;
+}
+
+@keyframes cambiarfoto {
+    9% {margin-left: 0%;}
+    10% {margin-left: -100%;}
+    19% {margin-left: -100%;}
+    20% {margin-left: -200%;}
+    29% {margin-left: -200%;}
+    30% {margin-left: -300%;}
+    39% {margin-left: -300%;}
+    40% {margin-left: -400%;}
+    49% {margin-left: -400%;}
+    50% {margin-left: -500%;}
+    59% {margin-left: -500%;}
+    60% {margin-left: -600%;}
+    69% {margin-left: -600%;}
+    70% {margin-left: -700%;}
+    79% {margin-left: -700%;}
+    80% {margin-left: -800%;}
+    89% {margin-left: -800%;}
+    90% {margin-left: -900%;}
+    99% {margin-left: -900%;}
+    100% {margin-left: -1000%;}
 }

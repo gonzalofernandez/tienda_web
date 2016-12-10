@@ -29,7 +29,7 @@ function multimedia() {
     }
 
     cogeElemento("reproducir").onclick = play;
-    cogeElemento("parar").onclick = pause;
+    cogeElemento("pausar").onclick = pause;
     cogeElemento("subirvolumen").onclick = volumenMas;
     cogeElemento("bajarvolumen").onclick = volumenMenos;
 }

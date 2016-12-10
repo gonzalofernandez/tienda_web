@@ -1,0 +1,1 @@
+He creado un carrusel de imágenes utilizando CSS. He utilizado la propiedad 'animation' 
