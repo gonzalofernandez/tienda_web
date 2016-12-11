@@ -23,6 +23,22 @@ body {
     cursor: default;
 }
 
+.mayuscula::first-letter {
+    text-transform: uppercase;
+}
+
+a::first-letter {
+    text-transform: uppercase;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+th::first-letter, td::first-letter {
+    text-transform: uppercase;
+}
+
 #contenedor a {
     text-decoration: none;
 }
@@ -230,6 +246,10 @@ address, #copyright {
     color: forestgreen;
 }
 
+td {
+    color: green;
+}
+
 #datoslibro table {
     margin: auto;
 }
@@ -248,16 +268,21 @@ address, #copyright {
     font-size: 1.4em;
 }
 
-#botonVolver::before {
+#botonVolver::after {
     font-family: ModernPictograms;
     color: black;
-    content: "R ";
+    content: " R";
     font-size: 1.4em;
 }
 
-.elementoMultimedia {
+.elementoMultimediaGrande {
     float: left;
-    width: 33.3%;
+    width: 35%;
+}
+
+#elementoMultimedia {
+    float: left;
+    width: 30%;
 }
 
 #multimedia {
@@ -286,11 +311,19 @@ address, #copyright {
 }
 
 #reproducir {
-        background-position: -254px -60px;
+    background-position: -254px -60px;
 }
 
 #pausar {
     background-position: -254px -107px;
+}
+
+#parar {
+    background-position: -254px -154px;
+}
+
+#silenciar {
+    background-position: -160px -154px;
 }
 
 #subirvolumen {
@@ -301,9 +334,25 @@ address, #copyright {
     background-position: -160px -107px;
 }
 
+#sonido {
+    background-position: -160px -13px;
+}
+
+#avanzar {
+    background-position: -207px -13px;
+}
+
+#retroceder {
+    background-position: -207px -60px;
+}
+
+#reempezar {
+    background-position: -207px -154px;
+}
+
 #carrusel {
     overflow: hidden;
-    margin: 2em auto;
+    margin: 1.5em auto;
     width: 40%;
 }
 
